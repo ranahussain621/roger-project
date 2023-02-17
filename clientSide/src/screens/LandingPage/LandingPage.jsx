@@ -262,7 +262,7 @@ if(getData.length>0){
               </div>
 
               {/* Custom Search Window */}
-          
+          {result.length > 0 ?
              <div
                 className="modal fade"
                 id="staticBackdrop"
@@ -317,7 +317,11 @@ if(getData.length>0){
                     </div>  
               </div> 
               </div>  
-              </div>   
+              </div> 
+     : <div>..</div>
+              
+              
+               }
 
               <div className="col-9 mt-5">
                 <div className="row ">

@@ -9,7 +9,6 @@ export default function ForgetPassword() {
 
 
   const { user, isSuccess, isError, message } = useSelector(state => state.auth)
-  console.log(message)
 
 
   const onChange = (e) => {
