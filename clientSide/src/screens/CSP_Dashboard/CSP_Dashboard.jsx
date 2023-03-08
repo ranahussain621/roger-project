@@ -44,8 +44,7 @@ const updateDashboardValue = (prev, next) => {
 }
 
 export default function Dashboard() {
-
-
+  
   const [dashboardValue, dispatchDashboardValue] = useReducer(updateDashboardValue, initialState);
   console.log(dashboardValue)
 
